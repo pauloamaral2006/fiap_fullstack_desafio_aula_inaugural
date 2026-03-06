@@ -1,12 +1,40 @@
-# Full Stack
+# Desafio Fullstack - Formulário
 
-## ℹ️ Sobre
+Projeto simples de formulário HTML que envia dados via requisição **POST em JSON** para uma API.
 
-<p>Projeto utilizado no curso de Full Stack da FIAP.</p>
+## Integrantes
+Paulo Henrique, Fábio, Leonardo, Bruno
 
-## 📘Integrantes
+## Tecnologias utilizadas
 
-- Paulo Henrique
-- Fábio
-- Leonardo
-- Bruno
+- HTML
+- CSS
+- JavaScript
+- Fetch API
+
+## Funcionalidades
+
+- Formulário com 5 campos de nomes
+- Campo de texto para história do grupo
+- Envio via POST em JSON
+- Limpeza automática do formulário após envio
+- Alertas de sucesso ou erro
+
+## Estrutura do projeto
+/projeto
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+
+## Endpoint utilizado
+POST https://fsdt-contact.onrender.com/contact
+
+
+Formato enviado:
+{
+"names": ["nome1", "nome2", "nome3"],
+"message": "história do grupo"
+}
